@@ -1,0 +1,13 @@
+M by N : 20 30
+steps : 800
+robots : 10
+RoboCop AAA 3 14
+Terminator BBB 11 19
+BlueThunder CCC 0 28
+Madbot DDD random random
+TerminatorRoboCop EEE 12 2
+RoboTank FFF random random
+UltimateRobot GGG 2 4
+RoboCop HHH 17 8 
+Terminator III random random
+BlueThunder JJJ 10 29
