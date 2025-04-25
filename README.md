@@ -1,18 +1,23 @@
-This is a C++ based simulation of robotic combat within a virtual battlefield,
-highlighting the interactions between various classes of robots with distinct abilities.
-Designed to test and enhance their strategic and operational capabilities, the simulation
-operates in a controlled grid-based environment.
+# Robot Battlefield Simulation
 
-The core components include different types of robots such as RoboCops, Terminators,
-TerminatorRoboCops, BlueThunders, Madbots, RoboTanks, and UltimateRobots. Each class
-has unique attributes and behaviors influencing their combat performance. Some robots can
-move, others can shoot, and some can perform both actions while detecting enemies nearby.
-The battlefield is a 2D grid where robots navigate, engage, and adapt to combat outcomes.
-The simulation employs object-oriented programming principles, featuring classes for each
-robot type, a battlefield class to manage the grid, and utility classes for robot actions and
-upgrades.
+This project simulates a battlefield with different types of robots, upgrades, and a visual representation using terminal output.
 
-The primary aim is to evaluate the effectiveness of different robotic strategies and
-decision-making processes under combat conditions. Robots can be upgraded based on
-performance, adding complexity and adaptation. The system tracks kills, lives, and upgrades,
-offering insights into how robots evolve and improve tactics over time.
+##  Step 1:Clone this repository and store the source files
+
+Make sure the following 13 files are placed in the same folder:
+
+- Battlefield.cpp
+- Queue.cpp
+- Robot.cpp
+- RobotList.cpp
+- Simulation.cpp
+- UpgradeList.cpp
+- (Include any additional files required, such as headers like Robot.h, Battlefield.h, etc.)
+
+##  Step 2: Compile the Program
+Open the terminal in Visual Studio Code and run one of the following methods:
+```bash
+g++ -std=c++17 *.cpp
+./a.exe
+
+
